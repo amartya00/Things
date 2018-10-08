@@ -1,0 +1,15 @@
+{
+    "Name": "Things",
+    "Version": "0.1",
+    "PackageSource": {
+        "Type": "Url",
+        "Url": "https://s3.amazonaws.com/amartya00-service-artifacts"
+    },
+    "BuildSystem": "CppCmake",
+    "Dependencies": [
+        {
+            "Name": "catch",
+            "Version": "2.4.1"
+        }
+    ]
+}

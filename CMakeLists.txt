@@ -7,6 +7,10 @@ enable_testing()
 # Add sub derictories
 add_subdirectory(headers)
 set(HEADERS ${CMAKE_CURRENT_SOURCE_DIR}/headers)
+set(PACKAGE_CACHE ${PACKAGE_CACHE})
+set(THIRD_PARTY_HEADERS ${PACKAGE_CACHE}/headers)
+
+message(STATUS "Using ${THIRD_PARTY_HEADERS}")
 
 add_subdirectory(tst)
 set(TST ${CMAKE_CURRENT_SOURCE_DIR}/tst)
@@ -15,6 +19,7 @@ set(TST ${CMAKE_CURRENT_SOURCE_DIR}/tst)
 add_custom_target(misc SOURCES
     README.md
     Doxyfile.in
+    md.json
     .gitignore)
 
 # Enable documentation
