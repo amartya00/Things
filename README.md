@@ -13,7 +13,9 @@ This includes unit testing using [CatchCpp](https://github.com/catchorg/Catch2).
     - *Merge sort.*
 
 ## References
-  - [CMake setup with doxygen.](https://vicrucann.github.io/tutorials/quick-cmake-doxygen/)
-  - [Unit testing with catch.](https://github.com/catchorg/Catch2/blob/master/docs/assertions.md#top)
-  - [Random number generation in c++.](https://stackoverflow.com/questions/21516575/fill-a-vector-with-random-numbers-c)
-  - [Knowledge about typename](https://stackoverflow.com/questions/610245/where-and-why-do-i-have-to-put-the-template-and-typename-keywords)
+  - [**CMake setup with doxygen.**](https://vicrucann.github.io/tutorials/quick-cmake-doxygen/)
+  - [**Unit testing with catch.**](https://github.com/catchorg/Catch2/blob/master/docs/assertions.md#top)
+  - [**Random number generation in c++.**](https://stackoverflow.com/questions/21516575/fill-a-vector-with-random-numbers-c)
+  - [**Knowledge about typename.**](https://stackoverflow.com/questions/610245/where-and-why-do-i-have-to-put-the-template-and-typename-keywords)
+  - [**Discussion on mutable.**](https://arne-mertz.de/2017/10/mutable/)
+  - [**Discussion about const correctness.**](https://arne-mertz.de/2016/07/const-correctness/)

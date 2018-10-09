@@ -26,6 +26,15 @@ SCENARIO ("Stack operations", "StackTest") {
                 }
             }
         }
+
+        WHEN ("I do a peek") {
+            testStack.push(131);
+            auto last = testStack.peek();
+
+            THEN ("I should get the last element") {
+                REQUIRE(131 == last);
+            }
+        }
     }
 }
 
