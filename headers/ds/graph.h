@@ -49,6 +49,7 @@ namespace SigAbrt {
         private:
             std::unordered_map<T, std::vector<std::tuple<T, unsigned int>>> adjList;
             mutable std::shared_mutex lock;
+
         public:
             void addNeighbour(const T& v, const T& neighbour, const unsigned int weight) noexcept {
                 std::lock_guard<std::shared_mutex> guard {lock};
@@ -63,6 +64,5 @@ namespace SigAbrt {
         };
     }
 }
-
 
 #endif

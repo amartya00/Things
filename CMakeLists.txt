@@ -6,15 +6,17 @@ SET(CMAKE_CXX_COMPILER clang++)
 project(DataStructuresCpp)
 enable_testing()
 
-# Add sub derictories
-add_subdirectory(headers)
+# Set include folders
 set(HEADERS ${CMAKE_CURRENT_SOURCE_DIR}/headers)
 set(PACKAGE_CACHE ${PACKAGE_CACHE})
 set(THIRD_PARTY_HEADERS ${PACKAGE_CACHE}/headers)
 
-message(STATUS "Using ${THIRD_PARTY_HEADERS}")
-
+# Add sub derictories
+add_subdirectory(headers)
 add_subdirectory(tst)
+add_subdirectory(lib)
+
+message(STATUS "Using ${THIRD_PARTY_HEADERS}")
 set(TST ${CMAKE_CURRENT_SOURCE_DIR}/tst)
 
 # Targets for misc files.

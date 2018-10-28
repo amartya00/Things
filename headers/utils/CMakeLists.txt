@@ -3,6 +3,5 @@ cmake_minimum_required(VERSION 3.0)
 include_directories(${THIRD_PARTY_HEADERS})
 include_directories(${HEADERS})
 
-add_subdirectory(algos)
-add_subdirectory(ds)
-add_subdirectory(utils)
+add_custom_target(utilsheaders SOURCES
+    "stringutils.h")

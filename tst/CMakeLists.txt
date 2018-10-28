@@ -18,3 +18,7 @@ add_test(graph testgraph)
 add_executable(testsorts "algos/testsorts.cc")
 add_test(sorts testsorts)
 
+# Tests for utils: stringutils
+add_executable(teststringutils "utils/teststringutils.cc")
+add_test(stringutils teststringutils)
+
